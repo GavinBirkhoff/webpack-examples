@@ -5,11 +5,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].js",
+    publicPath: "/assets/",
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./public/index.html"),
       filename: "index.html",
+      publicPath: "/assets/",
     }),
   ],
   devServer: {

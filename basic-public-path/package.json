@@ -1,0 +1,12 @@
+{
+  "name": "basic-public-path",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rimraf dist && webpack --mode development --watch --profile",
+    "dev":"webpack serve --mode development"
+  },
+  "keywords": ["Gavin Birkhoff"],
+  "author": "Gavin",
+  "license": "MIT"
+}
