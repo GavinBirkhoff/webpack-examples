@@ -1,0 +1,16 @@
+{
+  "name": "optimization-external",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rm -rf ./dist && webpack --mode development --watch --profile"
+  },
+  "keywords": [
+    "Gavin Birkhoff"
+  ],
+  "author": "Gavin",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
