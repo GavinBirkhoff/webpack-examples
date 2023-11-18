@@ -1,0 +1,17 @@
+{
+  "name": "react-pure",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack --mode development --watch --profile"
+  },
+  "keywords": [
+    "Gavin Birkhoff"
+  ],
+  "author": "Gavin",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
