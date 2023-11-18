@@ -1,0 +1,11 @@
+{
+  "name": "plugin-define",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env DEBUG=true webpack --mode development --watch --profile"
+  },
+  "keywords": ["Gavin Birkhoff"],
+  "author": "Gavin",
+  "license": "MIT"
+}
